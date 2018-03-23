@@ -1,7 +1,5 @@
 # Store
 
-Some store properties can be configured through API. In case you need to modifiy properties that this API does not allow, get in touch with our stuff.
-
 ## Configurable properties
 
 | Property  | Description |

@@ -130,13 +130,21 @@ Products are created individually. The mandatory fields are `ID`, `attributes`, 
 {
   "id": 5,
   "name": "My new product",
-  "attributes": ["Size, "Color"],
+  "attributes": {
+    "es": ["Talle, "Color"],
+    "en": ["Size, "Color"],
+    "pt": ["Tamanho", "Cor"]
+  },
   "brand_id": 1,
   "categories_ids": [1,3,4],
   "product_variants": [
     {
       "id": "2",
-      "attributes_values": { "Size": "XL", "Color": "Red" },
+      "attributes_values": {
+        "es": { "Talle": "XL", "Color": "Rojo" },
+        "en": { "Size": "XL", "Color": "Red" },
+        "pt": { "Tamanho": "XL", "Cor": "Vermelho" }
+      } ,
       "images": ["images.com/product-variant-image1.jpg", "images.com/product-variant-image2.jpg"],
       "price": 100,
       "promotional_price": 80,

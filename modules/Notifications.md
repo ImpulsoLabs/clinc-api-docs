@@ -7,7 +7,7 @@ simultaneously.
 
 | Property  | Description |
 | ------------- | ------------- |
-| emails  | Array containing all the emails of the customers targeted for the notification.  |
+| emails  | Array containing all the emails of the customers targeted for the notification. The maximum length for the array is `100`.  |
 | title  |  Notification header. |
 | body | Notification text message.  |
 | action | Object containing the fields `type` and `value`. The posible values for `type` are `category`, `product` and `view` (a specfic view of the App), while the field `value` will contain the `ID` for the specified type. In case you intend to target a `view`, get in touch with our stuff to know which are the allowed values.  |
